@@ -1,0 +1,140 @@
+
+html,body {
+  font-family: 'Poppins', sans-serif;
+  height:100%;
+  width:100%;
+  color: #fff;
+  background-color: #212121;
+}
+.parent{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px;
+}
+.card{
+  padding: 30px;
+  height: 350px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow: hidden;
+  
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+
+}
+.top img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 2px solid #dadada;
+
+}
+.save{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border:1px solid #dadada;
+
+  /* background-color: #dadada; */
+  height: 23px;
+  font-size: 13px;
+  color: #8b8b8b;
+
+}
+.center h3 {
+  font-size: 18px;
+  font-weight: 500;
+
+
+}
+.center{
+
+  /* background-color: red; */
+  margin-top: 0px;
+  top: 0px;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding: 5px;
+  justify-content: space-between;
+
+}
+.center h3 span {
+  font-size: 10px;
+  font-weight: 200;
+  color: #8b8b8b;
+
+
+}
+.center h2{
+  margin-top: 0px;
+  font-size: 20px;
+}
+.tag{
+  display: flex;
+  gap: 5;
+}
+.tag h4 {
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color: black;
+  background-color: #dadadac7;
+  padding: 4px;
+  margin-right: 6px;
+  border-radius: 5px;
+}
+.bottom{
+  display: flex;
+  /* margin-top: 90px; */
+  /* padding-top: 30px; */
+  border-top: 1px solid #dadada;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom button{
+  background-color: black;
+  color: white;
+  /* font-size: 10px; */
+  padding: 5px 10px;
+  column-width: 600;
+  border-radius: 5px;
+  border: 0px;
+}
+.bottomText{
+  padding-top: 18px;
+    gap: 0PX;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+
+}
+.bottomText h4{
+  margin-top: 5PX;
+  margin-bottom: 0px;
+  font-size: 20px;
+  gap: 2px;
+  font-weight: 500;
+  /* color: #8b8b8b; */
+}
+.bottomText p{
+  margin-top: 1px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #8b8b8b;
+}
